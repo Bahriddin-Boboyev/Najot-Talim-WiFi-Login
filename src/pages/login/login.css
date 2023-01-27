@@ -1,0 +1,95 @@
+.box {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.block {
+  width: 450px;
+  /* margin-top: 100px; */
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(
+    0deg,
+    rgba(183, 65, 65, 0.819) 0%,
+    rgba(5, 163, 255, 0.601) 100%
+  );
+
+  /* background-position: center;
+  backdrop-filter: blur(10px); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  border-radius: 10px;
+}
+h2 {
+  margin-bottom: 8px;
+}
+p {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.boxspan {
+  position: relative;
+}
+span {
+  display: block;
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 43px;
+  left: 37%;
+  z-index: 10;
+}
+input {
+  width: 240px;
+  padding: 5px;
+  margin-bottom: 7px;
+  margin-top: 11px;
+  border-radius: 11px;
+  border-color: #5f5353bb;
+  outline: none;
+  padding-left: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+.user::placeholder {
+  background-image: url("../../img/user.svg");
+  background-repeat: no-repeat;
+  color: black;
+  opacity: 0.8;
+}
+.email::placeholder {
+  background-image: url("../../img/email.svg");
+  background-repeat: no-repeat;
+  color: black;
+  opacity: 0.8;
+}
+.password::placeholder {
+  background-image: url("../../img/lock.svg");
+  background-repeat: no-repeat;
+  color: black;
+  opacity: 0.8;
+}
+
+.btn {
+  margin-top: 11px;
+  border-color: none;
+  background-color: black;
+  padding: 5px 105px;
+  color: white;
+  border-radius: 5px;
+  transition: ease 0.5s;
+}
+.btn:hover {
+  color: #00b4d8;
+}
+
+.block2 {
+  width: 435px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #eaf4f4;
+}
+.block h2 img{
+  width: 27px;
+}
